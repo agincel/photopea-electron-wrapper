@@ -1,0 +1,14 @@
+{
+  "name": "photopea-desktop",
+  "version": "1.0.0",
+  "description": "Desktop client for Photopea.com with full keyboard shortcut support",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "windowed": "electron . --windowed"
+  },
+  "dependencies": {
+    "electron": "^43.1.1"
+  }
+}
